@@ -15,9 +15,10 @@
 | hostname   | Print name of current host               |
 | env        | Print environment variables              |
 | who        | Print users currently logged in          |
-| man   h    | Print command manual                     |
+| man        | Print command manual                     |
 | apropos    | Find commands with keywords              |
-
+| grep       | Find a string in a text                  |
+| find       | Find a file according to properties      |
 
 ## File management
 
@@ -42,12 +43,9 @@
 | id         | Print user and group ids                 |
 | groups     | Print all groups                         |
 
-## Files
+## Permission Management
 
-| File        | Purpose                                  |
---------------|-------------------------------------------
-|/etc/passwd  | Contains all users and groups            |
-|/etc/shadow  | Contains all passwords of users          |
-
-
-
+| Command    | Description                              |
+| chmod      | Change moderation of file                |
+| chown      | Change the owner of a file               |
+| chgrp      | Change the group of a file               |
